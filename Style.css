@@ -1,0 +1,52 @@
+#mainbody{
+margin-left: 1%;
+margin-top: 1%;
+background: linear-gradient(#0fd6f2, #6a00ff);
+width: 334px;
+height: 580px;
+border: solid 6px;
+border-color: yellow;
+border-radius: 12px;
+}
+#screen{
+border-width: 5px;
+width: 100%;
+height: 60px;
+margin-top: 1px;
+border-color: red;
+border-radius: 8px;
+font-size: xx-large;
+font-family: sans-serif;
+text-align: right;
+background: linear-gradient(#0fd6f2, #6a00ff);
+}
+.but{
+width: 332px;
+height: 363px;
+margin-left: 1px;
+background-color: greenyellow;
+}
+button{
+width: 60px;
+height: 40px;
+margin-top: 7px;
+background: linear-gradient(#f20fe2, #00a8ff);
+margin-left: 16px;
+border: solid steelblue;
+border-radius: 34px;
+font-size: 20px;
+font-weight: 600;
+font-family: sans-serif;
+}
+button:hover{
+cursor: pointer;
+background: yellow;
+}
+.row{
+    margin-top: 3px;
+}
+#back{
+  margin-left: 175px;
+  width: 60px;
+  height: 40px;
+}
