@@ -41,6 +41,7 @@ function clk(val){
         check_last_char();
         try {
           var result=eval(text);
+       result = roundup(result,7);
  document.getElementById("screen").value=result
  } catch (SyntaxError) {
           alert('Invalid Syntax!');
@@ -93,5 +94,18 @@ var q=document.getElementById("screen");
 	s.value=Math.pow(parseInt(s.value),1/3);
 	}
 
+        function roundup(x,rd){
+	  let iOfdot = String(x).indexOf('.');
+	  let digAfterDot = String(x).length-iOfdot;
+	  if (iOfdot > -1) {
+	    if (digAfterDot > rd) {
+	      return x.toFixed(rd);
+	    }else {
+	      return x;
+	    }
+	  }else {
+	    return x;
+	 }
+}
 
 
