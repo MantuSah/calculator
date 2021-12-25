@@ -1,8 +1,5 @@
 body{
-background-image: url('image1.jpg');
-width: 100vh;
-height: 100vh;
-background-repeat: no-repeat;
+background-color: pink; 
 }
 
 #mainbody{
